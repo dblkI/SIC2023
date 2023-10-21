@@ -1,8 +1,8 @@
 from gpiozero import LED
 import time
 
-# Configura los LEDs en los pines GPIO 17, 18, 22 y 23
-leds = [LED(17), LED(18), LED(22), LED(23)]
+# Configura los LEDs en los pines GPIO 2, 3, 4 y 8
+leds = [LED(2), LED(3), LED(4), LED(8)]
 
 # Función para encender los LEDs según la secuencia del archivo
 def encender_leds(secuencia):
