@@ -2,8 +2,8 @@ from gpiozero import Button
 from datetime import datetime
 from time import sleep
 
-# Configura el botón en el pin GPIO 17
-boton = Button(17)
+# Configura el botón en el pin GPIO 02
+boton = Button(2)
 
 # Función para escribir la fecha y hora en un archivo
 def escribir_fecha_hora():
